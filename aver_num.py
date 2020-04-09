@@ -1,10 +1,9 @@
 #!/usr/bin/python3
 
-
-num = int(input("Input N"))
+num = int(input("Input N : "))
 
 sum=0
-list = []
+
 for i in range(num):
 	temp=int(input())
 	sum+=temp
